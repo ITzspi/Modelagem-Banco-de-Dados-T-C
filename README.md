@@ -3,7 +3,7 @@
 # Cenário
 Uma selaria chamada "Traias e Catiras" deseja implementar um sistema de gerenciamento para armazenar informações sobre seus clientes e vendedores. A empresa pretende melhorar o atendimento ao cliente e manter um registro organizado das transações, o que inclui informações sobre os compradores e os vendedores envolvidos. 
 
-# Entidades e Atributos 
+# Entidades e Atributos  
   Entidade: Cliente 
 Atributos: 
 ID do Cliente,
