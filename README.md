@@ -3,39 +3,39 @@
 # Cenário
 Uma selaria chamada "Traias e Catiras" deseja implementar um sistema de gerenciamento para armazenar informações sobre seus clientes e vendedores. A empresa pretende melhorar o atendimento ao cliente e manter um registro organizado das transações, o que inclui informações sobre os compradores e os vendedores envolvidos. 
 
-# Modelagem Conceitual
+# Entidades e Atributos 
   Entidade: Cliente 
 Atributos: 
-ID do Cliente  
-Nome 
-Endereço (composto: Rua, Cidade, CEP) 
-Telefone 
-Multivalorado: Compras Anteriores  
+ID do Cliente,
+Nome, 
+Endereço (composto: Rua, Cidade, CEP), 
+Telefone, 
+Multivalorado: Compras Anteriores.  
 
 Entidade: Vendedor 
 Atributos: 
-ID do Vendedor  
-Nome 
-Telefone 
-Comissão  
+ID do Vendedor,  
+Nome, 
+Telefone, 
+Comissão.  
 
 Entidade: Produto 
 Atributos:
-ID do Produto  
-Nome 
-Descrição 
-Preço 
-Estoque Disponível 
-Multivalorado: Fornecedor (nome do fornecedor e informações de contato) 
+ID do Produto,  
+Nome, 
+Descrição, 
+Preço, 
+Estoque Disponível, 
+Multivalorado: Fornecedor (nome do fornecedor e informações de contato). 
 
 Entidade: Compra 
 Atributos: 
-ID da Compra  
-Dados da Compra 
-Valor total 
-Forma de Pagamento 
-Chave Estrangeira: ID do Cliente  
-Chave Estrangeira: ID do Vendedor (para associar a compra a um vendedor) 
+ID da Compra,  
+Dados da Compra, 
+Valor total, 
+Forma de Pagamento, 
+Chave Estrangeira: ID do Cliente,  
+Chave Estrangeira: ID do Vendedor (para associar a compra a um vendedor). 
 
 # Relacionamentos
  Relacionamento 1:N entre Cliente e Compra: 
