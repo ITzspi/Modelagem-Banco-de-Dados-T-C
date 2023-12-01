@@ -50,17 +50,17 @@ Muitos produtos podem ser comprados em muitas compras, representando quais produ
 Relacionamento 1:N entre Produto e Fornecedor: 
 Um produto pode ser fornecido por vários fornecedores 
     
-# Diagrama Entidade-Relacionamento
-![der](https://github.com/pblcnr/Trabalho_LojaMaisVinil/assets/141787223/f914f785-b66c-4bff-88cd-77f43fbaa107)
+# Modelagem Conceitual
+Salva no arquivo docx "Modelo Conceitual"
 
 # Modelagem Lógica
-![modelo lógico](https://github.com/pblcnr/Trabalho_LojaMaisVinil/assets/141787223/678c9cd6-86ef-40d4-8c5f-8882b5146d98)
+Salva no arquivo docx "Modelo Lógico"
 
 # Dados
-  Todos os scripts de Dados estão no arquivo 'Loja MaisVinil.sql'
+  Todos os scripts de Dados estão no arquivo docx "CRUD"
   
 # CRUD
-  Todos os Scripts de CRUD estão na pasta 'CRUD'
+  Todos os Scripts de CRUD estão no arquivo docx 'CRUD'
 
 # Relatórios 
-  Todos os Scripts de Relatórios estão na pasta 'Relatórios'
+  Todos os Scripts de Relatórios estão na pasta 'RELATÓRIOS'
